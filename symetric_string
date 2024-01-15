@@ -1,0 +1,17 @@
+def is_symmetric(s):
+    #Remove spaces and convert to lowercase
+    s = s.replace(" ", "").lower()
+
+    # Check if the string is equal to its reverse
+    return s == s[::-1]
+
+# Get user input
+user_input = input("Enter a string: ")
+
+# Check if the input string is symmetric
+result = is_symmetric(user_input)
+
+if result:
+    print(f"The string '{user_input}' is symmetric.")
+else:
+    print(f"The string '{user_input}' is not symmetric.")
