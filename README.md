@@ -1,2 +1,2 @@
 # getting-started-with-programming
-just started with python will be uploading all python projects from basics in this repo
+just started with programming will be uploading all sort of programming qs from basics in this repo
